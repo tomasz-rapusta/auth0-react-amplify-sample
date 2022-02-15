@@ -1,6 +1,6 @@
 {
-    "domain": "{AUTH0_DOMAIN}",
-    "clientId": "{AUTH0_CLIENTID}",
+    "domain": "dev-auth2f.eu.auth0.com",
+    "clientId": "4M0Tjq98SumIhFmMts6HghxQhIO2rRY0",
     "scope": "openid profile email"
 }
   

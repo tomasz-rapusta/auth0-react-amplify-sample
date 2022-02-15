@@ -6,7 +6,7 @@ const Home = () => (
   <Fragment>
     <Hero />
     <hr />
-    <HomeContent />
+
   </Fragment>
 );
 
