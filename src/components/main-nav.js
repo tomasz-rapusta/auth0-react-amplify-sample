@@ -17,37 +17,23 @@ const MainNav = () => {
 
   return (
     <div className="navbar-nav mr-auto">
-      <NavLink
-        to="/"
-        exact
-        className="nav-link"
-        activeClassName="router-link-exact-active"
-      >
-        Home
-    </NavLink>
-      {isAuthenticated && (
-        <NavLink
-          to="/profile"
-          exact
-          className="nav-link"
-          activeClassName="router-link-exact-active"
-        >
-          Profile
-        </NavLink>
-      )}
 
       {!isAuthenticated && (
-
         <NavItem>
           <LoginButton />
         </NavItem>
 
       )}
       {isAuthenticated && (
-        <NavItem>
-          <LogoutButton />
-        </NavItem>
+          <h2>Payment Success</h2>
       )}
+
+      {isAuthenticated && (
+          <NavItem>
+            <LogoutButton />
+          </NavItem>
+      )}
+
     </div>
   );
 }
